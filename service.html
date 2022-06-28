@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="index.html">ИП Кулебакин</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -72,33 +72,37 @@
         <section class="my-5">
             <div class="container">
                 <h1 class="h1 text-center mb-3">Электромонтажные работы</h1>
-                <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade"
-                    data-bs-ride="carousel">
+            </div>
+            <div style="background: linear-gradient(28deg, #0a144c, #032f93);" class="py-3">
+                <div class="container">
+                    <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade"
+                        data-bs-ride="carousel">
 
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/img/test-img-1.png" class="d-block w-100" alt="Фото услуги">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
                         </div>
-                        <div class="carousel-item">
-                            <img src="assets/img/test-img-2.png" class="d-block w-100" alt="Фото услуги">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/test-img-1.png" class="d-block w-100" alt="Фото услуги">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/test-img-2.png" class="d-block w-100" alt="Фото услуги">
+                            </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </section>
@@ -216,38 +220,35 @@
                             <button type="submit" class="btn btn-primary">Заказать звонок</button>
                         </form>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                    </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer class="pb-5 mt-5 bg-light">
+    <footer class="pb-5 mt-5 bg-dark">
         <hr class="hr mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-4 mb-4">
-                    <h5 class="h5">ИП Кулебакин</h5>
+                    <h5 class="h5 text-light">ИП Кулебакин</h5>
                     <div class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#form-modal">Заказать звонок
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 mb-4">
-                    <a href="portfolio.html" class="link-dark d-block">Наши работы</a>
-                    <a href="contacts.html" class="link-dark d-block">Контакты</a>
-                    <a href="about.html" class="link-dark d-block">О нас</a>
-                    <a href="data-politic.pdf" class="link-dark d-block">Политика обработки
+                    <a href="portfolio.html" class="link-light d-block">Наши работы</a>
+                    <a href="contacts.html" class="link-light d-block">Контакты</a>
+                    <a href="about.html" class="link-light d-block">О нас</a>
+                    <a href="data-politic.pdf" class="link-light d-block">Политика обработки
                         персональных данных</a>
                 </div>
                 <div class="col-12 col-lg-4 mb-4">
-                    <a href="tel:+7 (999) 999-99-99" class="link d-flex align-items-center my-1"
+                    <a href="tel:+7 (999) 999-99-99" class="link-light d-flex align-items-center my-1"
                         style="text-decoration: none; color: inherit;">
                         <span class="material-symbols-outlined me-1">
                             call
                         </span>
                         +7 (999) 999-99-99
                     </a>
-                    <a href="mailto:email@mail.ru" class="link d-flex align-items-center my-1"
+                    <a href="mailto:email@mail.ru" class="link-light d-flex align-items-center my-1"
                         style="text-decoration: none; color: inherit;">
                         <span class="material-symbols-outlined me-1">
                             mail
@@ -256,7 +257,8 @@
                     </a>
                 </div>
             </div>
-            <p class="p text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus quidem
+            <p class="p text-center text-light mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                quidem
                 incidunt doloremque natus aliquid repellendus eum exercitationem commodi alias necessitatibus!</p>
         </div>
     </footer>
